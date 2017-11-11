@@ -5,7 +5,7 @@
 
 /* For mobile devices */
 //@media  screen and (max-width: 767px) {}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 /* 320pxまでの幅の場合に適応される */
    div.img1{
   background-image: url(../images/IMG_2246.jpg);
