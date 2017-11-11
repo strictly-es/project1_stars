@@ -6,6 +6,13 @@ html, body, .container {
   height: 100%;
 }
 
+@media screen and (max-width: 360px) {
+/* 320pxまでの幅の場合に適応される */
+    body {
+      font-size: 400px;
+        background-color: #68B876;
+    }
+}
 /* Reset */
 html, body, h1, p, a, div, section {
   margin: 0;
