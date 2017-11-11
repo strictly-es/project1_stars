@@ -5,10 +5,10 @@
 
 /* For mobile devices */
 //@media  screen and (max-width: 767px) {}
-@media screen and (max-width: 160px) {
+@media screen and (max-width: 340px) {
 /* 320pxまでの幅の場合に適応される */
    div.img1{
-  background-image: url(../images/IMG_2246.jg);
+  background-image: url(../images/IMG_2246.jpg);
 
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
