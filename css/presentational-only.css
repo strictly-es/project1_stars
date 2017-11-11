@@ -130,7 +130,7 @@ blockquote cite {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 320px) {
 
 div{
   background-position: center center;
@@ -148,7 +148,7 @@ div{
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
 
-  height:800px;
+  height:800px;s
 }
   .container {
     position: relative;
