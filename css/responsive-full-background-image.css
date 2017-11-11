@@ -1,13 +1,7 @@
 /* Responsive Full Background Image Using CSS
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
- 
-
-/* For mobile devices */
-//@media  screen and (max-width: 767px) {}
-@media screen and (max-width: 480px) {
-/* 320pxまでの幅の場合に適応される */
-   div.img1{
+ div.img1{
   background-image: url(../images/IMG_2246.jpg);
 
   /* Image is centered vertically and horizontally at all times */
@@ -73,6 +67,11 @@ div.img3{
   max-width:  100%;
   height: 100%;
 }
+
+/* For mobile devices */
+//@media  screen and (max-width: 767px) {}
+@media screen and (max-width: 320) {
+
 }
 
 
