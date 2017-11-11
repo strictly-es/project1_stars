@@ -15,43 +15,59 @@
 </head>
 
 <body>
-  <div class="img1"> 
-    <nav class="navbar" id="top">
-      <div class="inner">
-        Powerd by Strictly S
-     </div>
-      <!-- Nav -->
-      <!--<div id="nav-drawer">
-        <input id="nav-input" type="checkbox" class="nav-unshown">
-        <label id="nav-open" for="nav-input"><span></span></label>
-        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-        <div id="nav-content">ここに中身を入れる</div>
-    </div>-->
-    </nav>
-    <header class="container">
-      <section class="content">
-        <h1>You Got To Chill</h1>
-        <p class="sub-title"><strong>take a deep breath</strong> <br /> sit back and relax  </p>
-        </section>
-      </header>
+<div class="img1"> 
+  <nav class="navbar" id="top">
+    <div class="inner">
+      <!--<a href="http://sixrevisions.com/css/responsive-background-image/">About</a>-->
+      Powerd by Strictly S
+   </div>
+    <!-- Nav -->
+    <!--<div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">ここに中身を入れる</div>
+  </div>-->
+  </nav>
+
+  <audio id="audio">
+    <source src="./sound/summer-night-country1.mp3">
+  </audio>
+
+  <header class="container">
+    <section class="content">
+      <h1>You Got To Chill</h1>
+      <p class="sub-title"><strong>take a deep breath</strong> <br /> sit back and relax  </p>
+      <!--<p><a class="button" id="load-more-content" href="#top">Load some content</a></p>-->
+      <div id="buttonbar">
+            <!--<a class="button" id="play"  onclick="play()">&gt;</a>-->
+          <script type="text/javascript"><!--
+            var player = new Gapless5("buttonbar", {
+            tracks: ["./sound/summer-night-country1.mp3","./sound/summer-night-country1.mp3"],
+            loop: true,
+            });
+
+            console.log(player);
+       --></script>
+      </div>
   </div>
   <div class="img2"> 
   <header class="container">
     <section class="content">
       <h1>You Got To Chill</h1>
       <p class="sub-title"><strong>take a deep breath</strong> <br /> sit back and relax  </p>
-    </section>
-    </header>
   </div>
   <div class="img3"> 
   <header class="container">
     <section class="content">
       <h1>You Got To Chill</h1>
       <p class="sub-title"><strong>take a deep breath</strong> <br /> sit back and relax  </p>
-      </section>
-  </header>
   </div>
-
+      <div id="">
+        <!--  <INPUT type="radio" name="bg" value="./images/sea2.jpg" onClick="chBgImg(this)" checked>
+          <INPUT type="radio" name="bg" value="./images/sea4.jpg" onClick="chBgImg(this)">-->
+      </div>
+  </header>
     <!-- Footer -->
       <footer id="footer">
         <div class="container">

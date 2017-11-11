@@ -1,9 +1,29 @@
 /* Responsive Full Background Image Using CSS
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
-body {
-  /* Location of the image */
-  background-image: url(../images/stars.jpg);
+ div.img1{
+  background-image: url(../images/IMG_2246.jpg);
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;*/
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+
+  height:800px;
+}
+div.img2{
+  background-image: url(../images/IMG_0856.jpg);
 
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -21,9 +41,28 @@ body {
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
 
-  /* SHORTHAND CSS NOTATION
-   * background: url(background-photo.jpg) center center cover no-repeat fixed;
-   */
+  height:800px;
+}
+div.img3{
+  background-image: url(../images/IMG_2327.jpg);
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  height:800px;
 }
 
 /* For mobile devices */
@@ -34,3 +73,6 @@ body {
     background-image: url(images/background-photo-mobile-devices.jpg);
   }
 	}
+
+
+ 
