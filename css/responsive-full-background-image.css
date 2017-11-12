@@ -2,7 +2,7 @@
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
  div.img1{
-  background-image: url(../images/IMG_2246.jpg);
+  background-image: url(../images/small_IMG_2246.jpg);
 
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
