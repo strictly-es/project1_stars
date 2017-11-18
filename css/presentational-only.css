@@ -19,6 +19,10 @@ body {
   font: 18px/23px "Cantarell", sans-serif;
   color: #ffffff;
 }
+div {
+  height: 100%;
+
+}
 
 h1 {
   color: #efecec;
