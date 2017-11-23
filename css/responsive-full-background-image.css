@@ -20,6 +20,8 @@
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
 
+  height: 100vh;
+
 }
 div.img2{
   background-image: url(../images/IMG_0856.jpg);
@@ -40,6 +42,8 @@ div.img2{
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
 
+  height: 100vh;
+
 }
 div.img3{
   background-image: url(../images/IMG_2327.jpg);
@@ -59,15 +63,12 @@ div.img3{
 
   /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
-  
+
+  height: 100vh;
+
 }
 
 /* For mobile devices */
 //@media  screen and (max-width: 767px) {}
 @media screen and (max-width: 320) {
 }
-
-
-
-
- 
