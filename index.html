@@ -1,41 +1,58 @@
 <!doctype html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <!--read css-->
-    <link rel="stylesheet" href="./css/presentational-only.css">
-    <link rel="stylesheet" href="./css/responsive-full-background-image.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css" >
+  <meta charset="utf-8">
+  <!--read css-->
+  <link rel="stylesheet" href="./css/presentational-only.css">
+  <link rel="stylesheet" href="./css/responsive-full-background-image.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
 
-    <!--read js -->
-    <script src="./js/audio_player.js"></script>
-    <script src="./js/jquery-1.10.2.min.js" language="JavaScript" type="text/javascript"></script>
-    <script src="./js/gapless5.js" language="JavaScript" type="text/javascript"></script>
+  <!--read js -->
 
+  <link rel="stylesheet" type="text/css" href="./css/sublimeSlideshow.css" media="all" />
+
+  <script type="text/javascript" src="./js/jquery-1.8.0.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.sublimeSlideshow.js"></script>
+
+  <script type="text/javascript">
+    $(function() {
+      $.sublime_slideshow({
+        src: [{
+            url: "images/IMG_2246.jpg"
+          },
+          {
+            url: "images/IMG_0856.jpg"
+          },
+          {
+            url: "images/IMG_2327.jpg"
+          }
+        ],
+        duration: 7,
+        fade: 1,
+        scaling: 1.2,
+        rotating: 2,
+        overlay: ""
+      });
+    });
+  </script>
 </head>
 
 <body>
-  <div class="img1"> 
-    <nav class="navbar" id="top">
-      <div class="inner">
-        Powerd by Strictly S
-     </div>
-      <!-- Nav -->
-      <!--<div id="nav-drawer">
-        <input id="nav-input" type="checkbox" class="nav-unshown">
-        <label id="nav-open" for="nav-input"><span></span></label>
-        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-        <div id="nav-content">ここに中身を入れる</div>
-    </div>-->
-    </nav>
-    <header class="container">
-      <section class="content">
-        <h1>You Got To Chill</h1>
-        <p class="sub-title"><strong>take a deep breath</strong> <br /> sit back and relax  </p>
-        </section>
-      </header>
-  </div>
-  <div class="img2"> 
+  <!-- <div class="img1"> -->
+  <nav class="navbar" id="top">
+    <div class="inner">
+      Powerd by Strictly S
+    </div>
+  </nav>
+  <header class="container">
+    <section class="content">
+      <h1>You Got To Chill</h1>
+      <p class="sub-title"><strong>take a deep breath</strong> <br /> sit back and relax </p>
+    </section>
+  </header>
+  <!--  </div>
+  <div class="img2">
   <header class="container">
     <section class="content">
       <h1>You Got To Chill</h1>
@@ -43,29 +60,30 @@
     </section>
     </header>
   </div>
-  <div class="img3"> 
+  <div class="img3">
   <header class="container">
     <section class="content">
       <h1>You Got To Chill</h1>
       <p class="sub-title"><strong>take a deep breath</strong> <br /> sit back and relax  </p>
       </section>
   </header>
-  </div>
+</div> -->
 
-    <!-- Footer -->
-      <footer id="footer">
-        <div class="container">
-          <ul class="icons">
-            <li><a href="#" class="icon fa-facebook"></a></li>
-            <li><a href="#" class="icon fa-twitter"></a></li>
-            <li><a href="#" class="icon fa-instagram"></a></li>
-          </ul>
-          <ul class="copyright">
-            <li>&copy; Strictly-es</li>
-            <li>Design: <a href="http://templated.co">Strictly-es</a></li>
-            <li>Images: <a href="http://unsplash.com">Strictly-es</a></li>
-          </ul>
-        </div>
-      </footer>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <ul class="icons">
+        <li><a href="#" class="icon fa-facebook"></a></li>
+        <li><a href="#" class="icon fa-twitter"></a></li>
+        <li><a href="#" class="icon fa-instagram"></a></li>
+      </ul>
+      <ul class="copyright">
+        <li>&copy; Strictly-es</li>
+        <li>Design: <a href="http://templated.co">Strictly-es</a></li>
+        <li>Images: <a href="http://unsplash.com">Strictly-es</a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
+
 </html>
